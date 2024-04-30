@@ -1,0 +1,44 @@
+/* Your custom CSS styles */
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem; /* Adjust as needed */
+  font-size: 1rem; /* Adjust as needed */
+  font-weight: 400; /* Adjust as needed */
+  text-decoration: none;
+  background: none;
+  border: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+/* Custom CSS styles */
+.navbar.navbar-expand-lg.navbar-light.bg-primary {
+    background-color: rgb(255, 126, 184) !important; /* Gunakan !important untuk memastikan aturan diterapkan */
+  }
+  
+
+.navbar.navbar-expand-lg.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.jumbotron {
+  background-image: url('https://i.pinimg.com/originals/07/41/28/0741283aee367164333f85ed6edbea1f.jpg'); /* Ganti dengan URL gambar latar belakang Anda */
+  background-size: cover;
+  background-position: center;
+  height: 200vh;
+}
+element.style {
+    width: 80%;
+    height: 300px;
+    border-radius: 21px 21px 0 0;
+}
+.bg-body {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+.shadow-sm {
+    box-shadow: var(--bs-box-shadow-sm) !important;
+}
