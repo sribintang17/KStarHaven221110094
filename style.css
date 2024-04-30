@@ -42,3 +42,30 @@ element.style {
 .shadow-sm {
     box-shadow: var(--bs-box-shadow-sm) !important;
 }
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+/* CSS tambahan */
+.kpop-logo img {
+    width: 200px; /* Ubah ukuran sesuai kebutuhan */
+    height: auto;
+    transition: transform 0.3s ease; /* Efek transisi untuk hover */
+  }
+  
+  .kpop-logo img:hover {
+    transform: scale(1.1); /* Efek zoom in saat hover */
+  }
+  
+footer {
+    display: block;
+    unicode-bidi: isolate;
+}
